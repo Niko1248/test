@@ -1,0 +1,36 @@
+$color-dark: #4d4d4d;
+$color-light: #808080;
+$color-accent: #5d71dd;
+$gutter: 20px;
+%RobotoMedium{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+
+ol, ul {
+	list-style: none;
+	padding-inline-start: 0px;
+}
+
+body{
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	overflow-anchor: none;
+}
+.btn{
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 4px;
+	padding: 14px 0;
+	background-color: $color-accent;
+	transition: background-color 0.3s ease-in-out;
+	&:hover{
+		background-color: #6978f1;
+		transition: background-color 0.3s ease-in-out;
+	}
+}
